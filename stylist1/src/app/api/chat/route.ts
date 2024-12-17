@@ -2,9 +2,17 @@ import { NextRequest, NextResponse } from 'next/server';
 
 const MISTRAL_API_KEY = process.env.MISTRAL_API_KEY || '';
 
+// Add a GET method to test the route
+export async function GET() {
+  return NextResponse.json({ message: 'API is working' });
+}
+
 export async function POST(req: NextRequest) {
+  console.log('API route hit'); // Add logging
+
   try {
     const body = await req.json();
+    console.log('Received body:', body); // Add logging
     const { userMessage } = body;
 
     if (!userMessage) {
