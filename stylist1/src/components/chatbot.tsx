@@ -52,7 +52,7 @@ export default function Chatbot() {
           <div className="flex-1 overflow-y-auto mb-4 space-y-4">
             {/* Welcome message */}
             <div className="bg-[#2E1C2B] p-3 rounded-lg max-w-[80%] text-[#EAEAEA] border-l-4 border-[#893168]">
-              Hi, I'm your personal cute outfit stylist! Describe an outfit and I'll give you ideas on how to make it cuter :)
+              Hi, I'm your personal cute outfit stylist! Describe an outfit, and I'll give you ideas on how to make it cuter :)
             </div>
     
             {/* Chat messages */}
