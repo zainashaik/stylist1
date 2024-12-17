@@ -25,6 +25,10 @@ const oxygen = Oxygen({
 export const metadata: Metadata = {
   title: "Cute Outfit Stylist",
   description: "Generate cute outfit ideas for any outfit!",
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({

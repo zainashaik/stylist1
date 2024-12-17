@@ -54,6 +54,17 @@ export default function Home() {
         />
       </div>
 
+      {/* Hanger Image */}
+      {/*<div className="absolute top-4 left-4 md:top-8 md:left-8 z-20">
+        <Image
+          src="/hanger.png"
+          alt="Hanger icon"
+          width={80}
+          height={80}
+          className="opacity-80 hover:opacity-100 transition-opacity"
+        />
+      </div>*/}
+
       {/* Content */}
       <main className="container mx-auto p-4 md:p-8 flex flex-col gap-6 relative z-10">
         <h1 className={`text-5xl md:text-6xl font-bold text-center text-[#EAEAEA] ${satisfy.className}`}>
