@@ -9,3 +9,4 @@ Here is a demo video: https://youtu.be/OwIMGtXsibc
 - Tailwind CSS
 - React
 - Mistral AI API
+- Vercel
